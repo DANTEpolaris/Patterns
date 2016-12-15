@@ -1,7 +1,7 @@
 # Singleton
 ### Тип: Порождающий
 
-![Image alt](https://github.com/sergeybushuev/Singleton/raw/master/UML.png)
+![Image alt](https://github.com/DANTEpolaris/Patterns/edit/master/UML.png)
 
 **Одиночка** - Шаблон проектирования, гарантирующий, что в однопоточном приложении будет единственный экземпляр некоторого класса, и предоставляющий глобальную точку доступа к этому экземпляру.
 ## Применение
