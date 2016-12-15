@@ -6,7 +6,7 @@
 enum Warrior_ID { Infantryman_ID, Archer_ID, Horseman_ID };
   
 class Warrior;  // Опережающее объявление
-typedef map<Warrior_ID, Warrior*> Registry;
+using Registry map<Warrior_ID, Warrior*>;
   
 // Реестр прототипов определен в виде Singleton Мэйерса
 Registry& getRegistry()
