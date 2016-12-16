@@ -8,7 +8,7 @@ enum Warrior_ID { Infantryman_ID, Archer_ID, Horseman_ID };
 class Warrior;  // Опережающее объявление
 using Registry map<Warrior_ID, Warrior*>;
   
-// Реестр прототипов определен в виде Singleton Мэйерса
+// Реестр прототипов определен в виде Singleton
 Registry& getRegistry()
 {
   static Registry _instance;
